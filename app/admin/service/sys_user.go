@@ -7,11 +7,11 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/common/actions"
-	cDto "go-admin/common/dto"
-	common "go-admin/common/models"
-	"go-admin/common/service"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/common/actions"
+	cDto "odmp-admin/common/dto"
+	common "odmp-admin/common/models"
+	"odmp-admin/common/service"
 )
 
 type SysUser struct {

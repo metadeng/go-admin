@@ -7,8 +7,8 @@ import (
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-admin-team/go-admin-core/sdk/api"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/common/dto"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/common/dto"
 )
 
 // SysConfigSearch 列表或者搜索使用结构体

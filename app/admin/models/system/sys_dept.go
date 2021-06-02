@@ -1,6 +1,6 @@
 package system
 
-import "go-admin/common/models"
+import "odmp-admin/common/models"
 
 type SysDept struct {
 	DeptId   int    `json:"deptId" gorm:"primaryKey;autoIncrement;"` //部门编码

@@ -2,12 +2,12 @@ package service
 
 import (
 	"errors"
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service/dto"
-	cDto "go-admin/common/dto"
-	common "go-admin/common/models"
-	"go-admin/common/service"
 	"gorm.io/gorm"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service/dto"
+	cDto "odmp-admin/common/dto"
+	common "odmp-admin/common/models"
+	"odmp-admin/common/service"
 )
 
 type SysConfig struct {

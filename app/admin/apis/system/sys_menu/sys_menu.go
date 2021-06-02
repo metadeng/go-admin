@@ -6,10 +6,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/apis"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service"
+	"odmp-admin/app/admin/service/dto"
+	"odmp-admin/common/apis"
 )
 
 type SysMenu struct {

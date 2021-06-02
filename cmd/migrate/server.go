@@ -14,11 +14,11 @@ import (
 
 	"github.com/go-admin-team/go-admin-core/sdk/config"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/logger"
-	"go-admin/cmd/migrate/migration"
-	_ "go-admin/cmd/migrate/migration/version"
-	_ "go-admin/cmd/migrate/migration/version-local"
-	"go-admin/common/database"
-	"go-admin/common/models"
+	"odmp-admin/cmd/migrate/migration"
+	_ "odmp-admin/cmd/migrate/migration/version"
+	_ "odmp-admin/cmd/migrate/migration/version-local"
+	"odmp-admin/common/database"
+	"odmp-admin/common/models"
 )
 
 var (

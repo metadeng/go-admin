@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk/api"
 
-	"go-admin/app/admin/models"
+	"odmp-admin/app/admin/models"
 )
 
 // SysConfigControl 增、改使用的结构体

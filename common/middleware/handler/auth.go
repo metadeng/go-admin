@@ -14,8 +14,8 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"github.com/mssola/user_agent"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/common/global"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/common/global"
 )
 
 func PayloadFunc(data interface{}) jwt.MapClaims {

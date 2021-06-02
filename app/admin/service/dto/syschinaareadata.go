@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk/api"
 
-	"go-admin/app/admin/models"
-	"go-admin/common/dto"
-	common "go-admin/common/models"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/common/dto"
+	common "odmp-admin/common/models"
 )
 
 type SysChinaAreaDataSearch struct {
@@ -56,9 +56,9 @@ func (s *SysChinaAreaDataControl) Bind(ctx *gin.Context) error {
 func (s *SysChinaAreaDataControl) Generate() (*models.SysChinaAreaData, error) {
 	return &models.SysChinaAreaData{
 
-		Model:      common.Model{Id: s.Id},
-		PId:        s.PId,
-		Name:       s.Name,
+		Model: common.Model{Id: s.Id},
+		PId:   s.PId,
+		Name:  s.Name,
 	}, nil
 }
 

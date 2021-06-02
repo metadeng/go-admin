@@ -5,10 +5,10 @@ import (
 
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service/dto"
-	cDto "go-admin/common/dto"
-	"go-admin/common/service"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service/dto"
+	cDto "odmp-admin/common/dto"
+	"odmp-admin/common/service"
 )
 
 type SysPost struct {

@@ -1,4 +1,4 @@
-module go-admin
+module odmp-admin
 
 go 1.15
 

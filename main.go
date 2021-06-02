@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-admin/cmd"
+	"odmp-admin/cmd"
 )
 
 //go:generate swag init --parseDependency --parseDepth=6

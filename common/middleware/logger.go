@@ -13,7 +13,7 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
 
-	"go-admin/common/global"
+	"odmp-admin/common/global"
 )
 
 // LoggerToFile 日志记录到文件

@@ -5,11 +5,11 @@ import (
 
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service/dto"
-	cDto "go-admin/common/dto"
-	common "go-admin/common/models"
-	"go-admin/common/service"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service/dto"
+	cDto "odmp-admin/common/dto"
+	common "odmp-admin/common/models"
+	"odmp-admin/common/service"
 )
 
 type SysLoginLog struct {

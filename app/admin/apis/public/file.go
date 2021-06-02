@@ -12,8 +12,8 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/utils"
 	"github.com/google/uuid"
 
-	"go-admin/common/apis"
-	"go-admin/common/file_store"
+	"odmp-admin/common/apis"
+	"odmp-admin/common/file_store"
 )
 
 type FileResponse struct {

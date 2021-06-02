@@ -1,12 +1,12 @@
 package version
 
 import (
-	"go-admin/cmd/migrate/migration/models"
 	"gorm.io/gorm"
+	"odmp-admin/cmd/migrate/migration/models"
 	"runtime"
 
-	"go-admin/cmd/migrate/migration"
-	common "go-admin/common/models"
+	"odmp-admin/cmd/migrate/migration"
+	common "odmp-admin/common/models"
 )
 
 func init() {

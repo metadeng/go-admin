@@ -2,12 +2,12 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	middleware2 "go-admin/common/middleware"
+	middleware2 "odmp-admin/common/middleware"
 
 	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/actions"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/app/admin/service/dto"
+	"odmp-admin/common/actions"
 )
 
 func init() {

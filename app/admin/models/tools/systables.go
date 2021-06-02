@@ -4,7 +4,7 @@ import (
 	"gorm.io/gorm"
 	"strings"
 
-	"go-admin/app/admin/models"
+	"odmp-admin/app/admin/models"
 )
 
 type SysTables struct {

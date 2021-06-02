@@ -8,12 +8,12 @@ import (
 	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"github.com/google/uuid"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/actions"
-	"go-admin/common/apis"
-	common "go-admin/common/models"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service"
+	"odmp-admin/app/admin/service/dto"
+	"odmp-admin/common/actions"
+	"odmp-admin/common/apis"
+	common "odmp-admin/common/models"
 )
 
 type SysUser struct {

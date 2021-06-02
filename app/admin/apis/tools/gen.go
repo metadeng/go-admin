@@ -12,9 +12,9 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/config"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/models/tools"
-	"go-admin/common/apis"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/app/admin/models/tools"
+	"odmp-admin/common/apis"
 )
 
 type Gen struct {

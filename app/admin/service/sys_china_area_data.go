@@ -2,15 +2,15 @@ package service
 
 import (
 	"errors"
-	common "go-admin/common/models"
+	common "odmp-admin/common/models"
 
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/actions"
-	cDto "go-admin/common/dto"
-	"go-admin/common/service"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/app/admin/service/dto"
+	"odmp-admin/common/actions"
+	cDto "odmp-admin/common/dto"
+	"odmp-admin/common/service"
 )
 
 type SysChinaAreaData struct {

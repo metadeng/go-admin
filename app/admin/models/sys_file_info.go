@@ -1,7 +1,7 @@
 package models
 
 import (
-	"go-admin/common/models"
+	"odmp-admin/common/models"
 )
 
 type SysFileInfo struct {

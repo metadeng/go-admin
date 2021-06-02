@@ -3,11 +3,11 @@ package service
 import (
 	"errors"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service/dto"
-	cDto "go-admin/common/dto"
-	"go-admin/common/service"
 	"gorm.io/gorm"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service/dto"
+	cDto "odmp-admin/common/dto"
+	"odmp-admin/common/service"
 )
 
 type SysMenu struct {

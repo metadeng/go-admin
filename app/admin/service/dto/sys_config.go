@@ -7,9 +7,9 @@ import (
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-admin-team/go-admin-core/sdk/api"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/common/dto"
-	common "go-admin/common/models"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/common/dto"
+	common "odmp-admin/common/models"
 )
 
 // SysConfigSearch 列表或者搜索使用结构体
@@ -87,8 +87,8 @@ func (s *SysConfigControl) GetId() interface{} {
 
 // SysConfigById 获取单个或者删除的结构体
 type SysConfigById struct {
-	Id         int   `uri:"id"`
-	Ids        []int `json:"ids"`
+	Id  int   `uri:"id"`
+	Ids []int `json:"ids"`
 }
 
 func (s *SysConfigById) Generate() *SysConfigById {

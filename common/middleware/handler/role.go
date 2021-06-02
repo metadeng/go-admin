@@ -1,6 +1,6 @@
 package handler
 
-import "go-admin/common/models"
+import "odmp-admin/common/models"
 
 type SysRole struct {
 	RoleId    int    `json:"roleId" gorm:"primaryKey;autoIncrement"` // 角色编码

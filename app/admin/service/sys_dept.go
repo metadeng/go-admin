@@ -6,10 +6,10 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service/dto"
-	cDto "go-admin/common/dto"
-	"go-admin/common/service"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service/dto"
+	cDto "odmp-admin/common/dto"
+	"odmp-admin/common/service"
 )
 
 type SysDept struct {

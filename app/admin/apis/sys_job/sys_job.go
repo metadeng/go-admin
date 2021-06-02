@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk"
-	"go-admin/app/admin/service"
-	"go-admin/common/apis"
-	"go-admin/common/dto"
+	"odmp-admin/app/admin/service"
+	"odmp-admin/common/apis"
+	"odmp-admin/common/dto"
 )
 
 type SysJob struct {

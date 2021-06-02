@@ -10,7 +10,7 @@ import (
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/mem"
 
-	"go-admin/common/apis"
+	"odmp-admin/common/apis"
 )
 
 const (

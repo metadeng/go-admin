@@ -4,15 +4,15 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"go-admin/common/global"
+	"odmp-admin/common/global"
 	"os"
 
 	"github.com/spf13/cobra"
 
-	"go-admin/cmd/api"
-	"go-admin/cmd/config"
-	"go-admin/cmd/migrate"
-	"go-admin/cmd/version"
+	"odmp-admin/cmd/api"
+	"odmp-admin/cmd/config"
+	"odmp-admin/cmd/migrate"
+	"odmp-admin/cmd/version"
 )
 
 var rootCmd = &cobra.Command{

@@ -9,16 +9,16 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"go-admin/app/admin/apis/monitor"
-	"go-admin/app/admin/apis/public"
-	"go-admin/app/admin/apis/system"
-	"go-admin/app/admin/apis/system/dict"
-	"go-admin/app/admin/apis/system/sys_dept"
-	"go-admin/app/admin/apis/system/sys_menu"
-	"go-admin/app/admin/apis/tools"
-	"go-admin/common/middleware"
-	"go-admin/common/middleware/handler"
-	_ "go-admin/docs"
+	"odmp-admin/app/admin/apis/monitor"
+	"odmp-admin/app/admin/apis/public"
+	"odmp-admin/app/admin/apis/system"
+	"odmp-admin/app/admin/apis/system/dict"
+	"odmp-admin/app/admin/apis/system/sys_dept"
+	"odmp-admin/app/admin/apis/system/sys_menu"
+	"odmp-admin/app/admin/apis/tools"
+	"odmp-admin/common/middleware"
+	"odmp-admin/common/middleware/handler"
+	_ "odmp-admin/docs"
 )
 
 func InitSysRouter(r *gin.Engine, authMiddleware *jwt.GinJWTMiddleware) *gin.RouterGroup {

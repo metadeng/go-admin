@@ -1,9 +1,9 @@
 package dto
 
 import (
-	"go-admin/app/admin/models"
-	"go-admin/common/dto"
-	common "go-admin/common/models"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/common/dto"
+	common "odmp-admin/common/models"
 )
 
 type SysFileInfoSearch struct {

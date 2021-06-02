@@ -3,11 +3,11 @@ package models
 import (
 	"errors"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"go-admin/common/models"
+	"odmp-admin/common/models"
 
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models/system"
+	"odmp-admin/app/admin/models/system"
 )
 
 type Menu struct {

@@ -2,10 +2,10 @@ package service
 
 import (
 	log "github.com/go-admin-team/go-admin-core/logger"
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/models/system"
-	"go-admin/common/service"
 	"gorm.io/gorm"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/common/service"
 )
 
 type SysRoleMenu struct {

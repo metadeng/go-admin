@@ -9,8 +9,8 @@ import (
 	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models/tools"
-	"go-admin/common/apis"
+	"odmp-admin/app/admin/models/tools"
+	"odmp-admin/common/apis"
 )
 
 type SysTable struct {

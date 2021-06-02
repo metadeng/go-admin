@@ -7,11 +7,11 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
 	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/service"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/apis"
-	common "go-admin/common/models"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/service"
+	"odmp-admin/app/admin/service/dto"
+	"odmp-admin/common/apis"
+	common "odmp-admin/common/models"
 )
 
 type SysDictType struct {

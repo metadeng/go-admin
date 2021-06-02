@@ -7,10 +7,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/service"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/apis"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/app/admin/service"
+	"odmp-admin/app/admin/service/dto"
+	"odmp-admin/common/apis"
 )
 
 type SysSetting struct {

@@ -1,7 +1,7 @@
 package system
 
 import (
-	"go-admin/common/models"
+	"odmp-admin/common/models"
 )
 
 type SysConfig struct {

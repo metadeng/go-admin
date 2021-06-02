@@ -18,12 +18,12 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/logger"
 	"github.com/spf13/cobra"
 
-	"go-admin/app/admin/models/system"
-	"go-admin/app/admin/router"
-	"go-admin/app/jobs"
-	"go-admin/common/database"
-	"go-admin/common/global"
-	ext "go-admin/config"
+	"odmp-admin/app/admin/models/system"
+	"odmp-admin/app/admin/router"
+	"odmp-admin/app/jobs"
+	"odmp-admin/common/database"
+	"odmp-admin/common/global"
+	ext "odmp-admin/config"
 )
 
 var (

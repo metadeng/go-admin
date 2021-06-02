@@ -7,7 +7,7 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 
-	"go-admin/app/admin/models/tools"
+	"odmp-admin/app/admin/models/tools"
 )
 
 // @Summary 分页列表数据 / page list data

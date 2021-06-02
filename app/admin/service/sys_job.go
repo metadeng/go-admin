@@ -4,10 +4,10 @@ import (
 	"github.com/robfig/cron/v3"
 	"time"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/jobs"
-	"go-admin/common/dto"
-	"go-admin/common/service"
+	"odmp-admin/app/admin/models"
+	"odmp-admin/app/jobs"
+	"odmp-admin/common/dto"
+	"odmp-admin/common/service"
 )
 
 type SysJob struct {
